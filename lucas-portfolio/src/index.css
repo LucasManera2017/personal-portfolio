@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: all;
+}
+
+@theme {
+  --animate-typing: typing 3s steps(var(--text-length), end) forwards;
+  --animate-caret: blink-caret 0.7s step-end infinite;
+
+  @keyframes typing {
+    from {
+      width: 0ch;
+    }
+    to {
+      width: var(--text-length) ch;
+    }
+  }
+
+  @keyframes blink-caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+}
+
+    
+
