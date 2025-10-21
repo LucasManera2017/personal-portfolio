@@ -126,6 +126,9 @@ export default function TiltedCard({
           }}
         />
 
+        <div className="absolute inset-0 bg-black/60 rounded-[15px]" />
+
+
         {displayOverlayContent && overlayContent && (
           <motion.div
             className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none mb-50"

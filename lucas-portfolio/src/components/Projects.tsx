@@ -31,42 +31,46 @@ const Projects = () => {
             />
           </a>
           {/* Card 2 */}
-          <TiltedCard
-            imageSrc="../../public/img/crud_app.png"
-            altText="Clients - CrudApp"
-            captionText="Clients - CrudApp"
-            containerHeight="300px"
-            containerWidth="300px"
-            imageHeight="100%"
-            imageWidth="100%"
-            rotateAmplitude={12}
-            scaleOnHover={1.2}
-            showMobileWarning={false}
-            showTooltip={true}
-            displayOverlayContent={true}
-            overlayContent={
-              <p className="tilted-card-demo-text">Clients - CrudApp</p>
-            }
-          />
+          <a href="https://github.com/LucasManera2017/champions_league_API">
+            <TiltedCard
+              imageSrc="../../public/img/champiosApi.png"
+              altText="Champions API with Express and NextJs"
+              captionText="Champions API with Express and NextJs"
+              containerHeight="300px"
+              containerWidth="300px"
+              imageHeight="100%"
+              imageWidth="100%"
+              rotateAmplitude={12}
+              scaleOnHover={1.2}
+              showMobileWarning={false}
+              showTooltip={true}
+              displayOverlayContent={true}
+              overlayContent={
+                <p className="tilted-card-demo-text">Champions API</p>
+              }
+            />
+          </a>
 
           {/* Card 3 */}
-          <TiltedCard
-            imageSrc="../../public/img/crud_app.png"
-            altText="Clients - CrudApp"
-            captionText="Clients - CrudApp"
-            containerHeight="300px"
-            containerWidth="300px"
-            imageHeight="100%"
-            imageWidth="100%"
-            rotateAmplitude={12}
-            scaleOnHover={1.2}
-            showMobileWarning={false}
-            showTooltip={true}
-            displayOverlayContent={true}
-            overlayContent={
-              <p className="tilted-card-demo-text">Clients - CrudApp</p>
-            }
-          />
+          <a href="https://github.com/LucasManera2017/AutNutry">
+            <TiltedCard
+              imageSrc="../../public/img/AutNutry.png"
+              altText="AutNutry - App para Nutricionistas"
+              captionText="AutNutry - App para Nutricionistas"
+              containerHeight="300px"
+              containerWidth="300px"
+              imageHeight="100%"
+              imageWidth="100%"
+              rotateAmplitude={12}
+              scaleOnHover={1.2}
+              showMobileWarning={false}
+              showTooltip={true}
+              displayOverlayContent={true}
+              overlayContent={
+                <p className="tilted-card-demo-text">AutNutry - App para Nutricionistas</p>
+              }
+            />
+          </a>
 
           {/* Card 4 */}
           <TiltedCard
