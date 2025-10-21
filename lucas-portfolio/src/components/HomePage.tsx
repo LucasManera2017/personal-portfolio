@@ -3,8 +3,8 @@ import Typewriter from "./Typewriter";
 
 const HomePage = () => {
   return (
-    <section className="flex items-center justify-center min-h-screen bg-base-100 px-8">
-      <div className="flex flex-col-reverse md:flex-row items-center justify-between w-full max-w-[1280px] mx-auto mb-30 gap-8 md:gap-4">
+    <section id="home" className="flex items-center justify-center bg-base-100 px-8">
+      <div className="flex flex-col-reverse md:flex-row items-center justify-between w-full max-w-[1280px] mx-auto mb-20 mt-20 gap-8 md:gap-4">
         {/* Text Section */}
         <div className="text-center md:text-left md:w-1/2 space-y-4">
           <h1 className="text-3xl md:text-5xl font-mono  leading-tight">
@@ -16,7 +16,7 @@ const HomePage = () => {
             learning.
           </p>
           <div className="flex justify-center md:justify-start gap-4 pt-4">
-            <button className="btn btn-primary">View Projects</button>
+            <button className="btn btn-primary"><a href="#projects">View Projects</a></button>
             <button className="btn btn-outline">Contact Me</button>
           </div>
         </div>

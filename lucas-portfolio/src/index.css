@@ -23,5 +23,9 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
     
 
