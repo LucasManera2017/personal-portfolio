@@ -1,4 +1,7 @@
 import TiltedCard from "./TiltedCard";
+import crudapp from '/img/crud_app.png'
+import championsapi from '/img/champiosApi.png'
+import autnutry from '/img/AutNutry.png'
 
 const Projects = () => {
   return (
@@ -13,7 +16,7 @@ const Projects = () => {
           {/* Card 1 */}
           <a href="https://github.com/LucasManera2017/crudApp/tree/main">
             <TiltedCard
-              imageSrc={`${import.meta.env.BASE_URL}img/crud_app.png`}
+              imageSrc={crudapp}
               altText="Clients - CrudApp"
               captionText="Clients - CrudApp"
               containerHeight="300px"
@@ -33,7 +36,7 @@ const Projects = () => {
           {/* Card 2 */}
           <a href="https://github.com/LucasManera2017/champions_league_API">
             <TiltedCard
-              imageSrc={`${import.meta.env.BASE_URL}img/champiosApi.png`}
+              imageSrc={championsapi}
               altText="Champions API with Express and NextJs"
               captionText="Champions API with Express and NextJs"
               containerHeight="300px"
@@ -54,7 +57,7 @@ const Projects = () => {
           {/* Card 3 */}
           <a href="https://github.com/LucasManera2017/AutNutry">
             <TiltedCard
-              imageSrc={`${import.meta.env.BASE_URL}img/AutNutry.png`}
+              imageSrc={autnutry}
               altText="AutNutry - App for Nutricionists"
               captionText="AutNutry - App for Nutricionists"
               containerHeight="300px"
