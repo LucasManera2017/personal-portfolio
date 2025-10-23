@@ -13,7 +13,7 @@ const Projects = () => {
           {/* Card 1 */}
           <a href="https://github.com/LucasManera2017/crudApp/tree/main">
             <TiltedCard
-              imageSrc="../../public/img/crud_app.png"
+              imageSrc="./public/img/crud_app.png"
               altText="Clients - CrudApp"
               captionText="Clients - CrudApp"
               containerHeight="300px"
@@ -33,7 +33,7 @@ const Projects = () => {
           {/* Card 2 */}
           <a href="https://github.com/LucasManera2017/champions_league_API">
             <TiltedCard
-              imageSrc="../../public/img/champiosApi.png"
+              imageSrc="./public/img/champiosApi.png"
               altText="Champions API with Express and NextJs"
               captionText="Champions API with Express and NextJs"
               containerHeight="300px"
@@ -54,9 +54,9 @@ const Projects = () => {
           {/* Card 3 */}
           <a href="https://github.com/LucasManera2017/AutNutry">
             <TiltedCard
-              imageSrc="../../public/img/AutNutry.png"
-              altText="AutNutry - App para Nutricionistas"
-              captionText="AutNutry - App para Nutricionistas"
+              imageSrc="./public/img/AutNutry.png"
+              altText="AutNutry - App for Nutricionists"
+              captionText="AutNutry - App for Nutricionists"
               containerHeight="300px"
               containerWidth="300px"
               imageHeight="100%"
@@ -72,24 +72,6 @@ const Projects = () => {
             />
           </a>
 
-          {/* Card 4 */}
-          <TiltedCard
-            imageSrc="../../public/img/crud_app.png"
-            altText="Clients - CrudApp"
-            captionText="Clients - CrudApp"
-            containerHeight="300px"
-            containerWidth="300px"
-            imageHeight="100%"
-            imageWidth="100%"
-            rotateAmplitude={12}
-            scaleOnHover={1.2}
-            showMobileWarning={false}
-            showTooltip={true}
-            displayOverlayContent={true}
-            overlayContent={
-              <p className="tilted-card-demo-text">Clients - CrudApp</p>
-            }
-          />
         </div>
       </div>
     </section>
