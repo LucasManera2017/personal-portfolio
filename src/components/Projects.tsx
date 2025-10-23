@@ -71,7 +71,7 @@ const Projects = () => {
               displayOverlayContent={true}
               overlayContent={
                 <p className="tilted-card-demo-text">
-                  AutNutry - App para Nutricionistas
+                  AutNutry - App for Nutricionists
                 </p>
               }
             />

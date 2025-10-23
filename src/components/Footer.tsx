@@ -30,7 +30,7 @@ const Footer = () => {
 
         {/* Texto central */}
         <p className="text-center text-base-content">
-          © {new Date().getFullYear()} Lucas Manera. Todos os direitos reservados.
+          © {new Date().getFullYear()} Lucas Manera. All rights reserved.
         </p>
 
         {/* Espaço à direita (para balancear visualmente) */}
