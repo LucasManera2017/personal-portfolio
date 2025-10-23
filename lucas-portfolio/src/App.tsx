@@ -1,3 +1,4 @@
+import Footer from "./components/Footer.js";
 import HomePage from "./components/HomePage.js";
 import Navbar from "./components/Navbar.js";
 import Projects from "./components/Projects.js";
@@ -13,6 +14,7 @@ function App() {
         <HomePage/>
         <Skills/>
         <Projects/>
+        <Footer/>
       </div>
     </div>
     </>
