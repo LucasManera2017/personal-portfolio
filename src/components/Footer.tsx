@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="w-full mt-10">
+    <footer id="contacts" className="w-full mt-10">
       {/* Linha superior */}
       <div className="border-t border-base-content w-[90%] mx-auto" />
 

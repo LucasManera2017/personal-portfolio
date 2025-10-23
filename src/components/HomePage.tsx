@@ -18,7 +18,7 @@ const HomePage = () => {
           </p>
           <div className="flex justify-center md:justify-start gap-4 pt-4">
             <button className="btn btn-primary"><a href="#projects">View Projects</a></button>
-            <button className="btn btn-outline">Contact Me</button>
+            <button className="btn btn-outline"><a href="#contacts">Contact Me</a></button>
           </div>
         </div>
 
