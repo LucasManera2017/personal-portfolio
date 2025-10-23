@@ -13,7 +13,7 @@ const Projects = () => {
           {/* Card 1 */}
           <a href="https://github.com/LucasManera2017/crudApp/tree/main">
             <TiltedCard
-              imageSrc="./public/img/crud_app.png"
+              imageSrc={`${import.meta.env.BASE_URL}img/crud_app.png`}
               altText="Clients - CrudApp"
               captionText="Clients - CrudApp"
               containerHeight="300px"
@@ -33,7 +33,7 @@ const Projects = () => {
           {/* Card 2 */}
           <a href="https://github.com/LucasManera2017/champions_league_API">
             <TiltedCard
-              imageSrc="./public/img/champiosApi.png"
+              imageSrc={`${import.meta.env.BASE_URL}img/champiosApi.png`}
               altText="Champions API with Express and NextJs"
               captionText="Champions API with Express and NextJs"
               containerHeight="300px"
@@ -54,7 +54,7 @@ const Projects = () => {
           {/* Card 3 */}
           <a href="https://github.com/LucasManera2017/AutNutry">
             <TiltedCard
-              imageSrc="./public/img/AutNutry.png"
+              imageSrc={`${import.meta.env.BASE_URL}img/AutNutry.png`}
               altText="AutNutry - App for Nutricionists"
               captionText="AutNutry - App for Nutricionists"
               containerHeight="300px"
@@ -67,11 +67,12 @@ const Projects = () => {
               showTooltip={true}
               displayOverlayContent={true}
               overlayContent={
-                <p className="tilted-card-demo-text">AutNutry - App para Nutricionistas</p>
+                <p className="tilted-card-demo-text">
+                  AutNutry - App para Nutricionistas
+                </p>
               }
             />
           </a>
-
         </div>
       </div>
     </section>

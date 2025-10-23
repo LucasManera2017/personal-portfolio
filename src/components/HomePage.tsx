@@ -25,7 +25,7 @@ const HomePage = () => {
         <div className="md:w-1/2 flex justify-center mb-10 md:mb-0 animate-wiggle [animation-iteration-count:1]">
           <Magnet padding={200} magnetStrength={40}>
             <img
-              src="./public/img/homeImg.png"
+              src={`${import.meta.env.BASE_URL}img/homeImg.png`}
               alt="Lucas illustration"
               className="w-md  md:w-96 lg:w-2xl object-contain drop-shadow-2xl drop-shadow-primary/30"
             />
