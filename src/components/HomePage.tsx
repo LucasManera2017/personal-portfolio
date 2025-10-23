@@ -1,3 +1,4 @@
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Magnet from "./Magnet";
 import Typewriter from "./Typewriter";
 import homeImg from '/img/homeImg.png'
@@ -17,8 +18,24 @@ const HomePage = () => {
             learning.
           </p>
           <div className="flex justify-center md:justify-start gap-4 pt-4">
-            <button className="btn btn-primary"><a href="#projects">View Projects</a></button>
-            <button className="btn btn-outline"><a href="#contacts">Contact Me</a></button>
+             <div className="flex gap-4">
+                      <a
+                        href="https://www.linkedin.com/in/lucas-manera"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:text-blue-600 text-base-content transition-colors"
+                      >
+                        <FaLinkedin size={40} />
+                      </a>
+                      <a
+                        href="https://github.com/lucasmanera2017"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:text-gray-800 text-base-content transition-colors"
+                      >
+                        <FaGithub size={40} />
+                      </a>
+                    </div>
           </div>
         </div>
 
