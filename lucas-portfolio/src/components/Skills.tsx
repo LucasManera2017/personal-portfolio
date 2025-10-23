@@ -3,7 +3,6 @@ import { FaJs, FaNodeJs, FaFigma } from "react-icons/fa";
 import {
   SiTypescript,
   SiTailwindcss,
-  SiDaisyui,
   SiExpress,
   SiMongodb,
   SiMysql,
